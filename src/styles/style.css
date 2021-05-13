@@ -1,0 +1,89 @@
+.findCytyForm {
+  display: flex;
+  align-items: baseline;
+}
+
+.findCytyForm h4 {
+  color: #490005;
+}
+
+.findCytyForm button {
+  box-sizing: content-box;
+}
+
+.cardTitle {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.deleteBox {
+  padding: 10px;
+  width: 500px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.trashButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  transition: all 0.4s;
+  opacity: 0.3;
+}
+
+.trashButton:hover {
+  opacity: 0.7;
+}
+
+.currentBox {
+  padding: 10px;
+  width: 500px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  background: #abcdef;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.forecastHeader {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.closeBtn,
+.refreshButton {
+  cursor: pointer;
+}
+
+.forecastInfo {
+  width: 50%;
+  height: calc(100% - 250px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.forecastIcon {
+  width: 50%;
+  height: calc(100% - 250px);
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  overflow: hidden;
+}
